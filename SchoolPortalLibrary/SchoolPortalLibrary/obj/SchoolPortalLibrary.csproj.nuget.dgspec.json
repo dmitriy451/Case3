@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Евгений\\source\\repos\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj": {}
+    "C:\\Users\\Евгений\\source\\repos\\Case3\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Евгений\\source\\repos\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj": {
+    "C:\\Users\\Евгений\\source\\repos\\Case3\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Евгений\\source\\repos\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Евгений\\source\\repos\\Case3\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj",
         "projectName": "SchoolPortalLibrary",
-        "projectPath": "C:\\Users\\Евгений\\source\\repos\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj",
+        "projectPath": "C:\\Users\\Евгений\\source\\repos\\Case3\\SchoolPortalLibrary\\SchoolPortalLibrary\\SchoolPortalLibrary.csproj",
         "packagesPath": "C:\\Users\\Евгений\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Евгений\\source\\repos\\SchoolPortalLibrary\\SchoolPortalLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Евгений\\source\\repos\\Case3\\SchoolPortalLibrary\\SchoolPortalLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

@@ -10,3 +10,15 @@ C:\Users\Евгений\source\repos\SchoolPortalLibrary\SchoolPortalLibrary\obj
 C:\Users\Евгений\source\repos\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.dll
 C:\Users\Евгений\source\repos\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\ref\SchoolPortalLibrary.dll
 C:\Users\Евгений\source\repos\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.pdb
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.csproj.AssemblyReference.cache
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.AssemblyInfoInputs.cache
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.AssemblyInfo.cs
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.dll
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\ref\SchoolPortalLibrary.dll
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\obj\Debug\net6.0\SchoolPortalLibrary.pdb
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\bin\Debug\net6.0\SchoolPortalLibrary.deps.json
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\bin\Debug\net6.0\SchoolPortalLibrary.dll
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\bin\Debug\net6.0\ref\SchoolPortalLibrary.dll
+C:\Users\Евгений\source\repos\Case3\SchoolPortalLibrary\SchoolPortalLibrary\bin\Debug\net6.0\SchoolPortalLibrary.pdb

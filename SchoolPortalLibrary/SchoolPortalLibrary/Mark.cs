@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolPortalLibrary
 {
-    internal class Mark
+    public class Mark
     {
         public Mark(DateTime date, string estimation)
         {

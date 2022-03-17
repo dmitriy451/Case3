@@ -1,11 +1,8 @@
-﻿using Newtonsoft.Json;
-using System.Net;
-
-namespace SchoolPortalLibrary
+﻿namespace SchoolPortalLibrary
 {
     public class SchoolPortal
     {
-        double MinAVG(string[] marks)
+        public double MinAVG(string[] marks)
         {
             double sum = 0;
             double count = 0;
@@ -23,7 +20,7 @@ namespace SchoolPortalLibrary
             }
             return Math.Round( sum / count,0);
         }
-        int GetCountTruancy(List<Mark> marks)
+        public int GetCountTruancy(List<Mark> marks)
         {
             int count = 0;
             foreach (var item in marks)
@@ -35,7 +32,7 @@ namespace SchoolPortalLibrary
             }
             return count;
         }
-        int GetCountDisease(List<Mark> marks)
+        public int GetCountDisease(List<Mark> marks)
         {
             int count = 0;
             foreach (var item in marks)
@@ -47,7 +44,7 @@ namespace SchoolPortalLibrary
             }
             return count;
         }
-        string GetStudNumber(int year, int group, string fio)
+        public string GetStudNumber(int year, int group, string fio)
         {
             string initial = "";
             try
@@ -59,7 +56,7 @@ namespace SchoolPortalLibrary
             }
             return year + "." + group +"." + initial;
         }
-        List<Mark> GetMarks(DateTime now, List<Students> students)
+        public List<Mark> GetMarks(DateTime now, List<Students> students)
         {
             List<Mark> marks = new List<Mark>();
             for (int i = 0; i < 10; i++)

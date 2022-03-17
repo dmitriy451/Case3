@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchoolPortalLibrary
 {
-    internal class Students
+    public class Students
     {
         public Students(string year, string group, string fio)
         {
