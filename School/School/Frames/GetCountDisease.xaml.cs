@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,18 @@ namespace School.Frames
         public GetCountDisease()
         {
             InitializeComponent();
+        }
+        List<Mark> marks = new List<Mark>();
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+                marks.Add(new Mark(Date.DisplayDate, CBox_Estimation.Text));
+                LView_Marks.ItemsSource = null;
+                LView_Marks.ItemsSource = marks;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show(new Class1().GetCountDisease(marks).ToString());
         }
     }
 }

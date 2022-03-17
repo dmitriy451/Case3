@@ -14,7 +14,13 @@ namespace Library
             Estimation = estimation;
         }
         public DateTime Date { get; set; }
-
+        public string DateString
+        {
+            get
+            {
+                return Date.ToString("d");
+            }
+        }
         public string Estimation { get; set; }
     }
 }

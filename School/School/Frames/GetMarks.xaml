@@ -9,6 +9,29 @@
       Title="GetMarks">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="89*"/>
+            <RowDefinition Height="361*"/>
+        </Grid.RowDefinitions>
+        <Button Click="Button_Click" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20">Сгенерировать</Button>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ListView Grid.Column="1" x:Name="LView_Marks">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Оценка: " FontSize="20" Margin="10"></Label>
+                            <Label Content="{Binding Estimation}" FontSize="20" Margin="10"></Label>
+                            <Label Content="Дата: " FontSize="20" Margin="10"></Label>
+                            <Label Content="{Binding DateString}" FontSize="20" Margin="10"></Label>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
     </Grid>
 </Page>

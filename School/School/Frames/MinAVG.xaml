@@ -9,6 +9,10 @@
       Title="MinAVG">
 
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label FontSize="20" Margin="10">Введите свои оценки через запятую</Label>
+            <TextBox x:Name="TBox_Marks" FontSize="20" Margin="10"></TextBox>
+            <Button FontSize="20" Margin="10" Click="Button_Click">Рассчитать среднее арефметическое</Button>
+        </StackPanel>
     </Grid>
 </Page>

@@ -23,10 +23,8 @@ namespace School
     {
         public MainWindow()
         {
-            //SP.GetCountDisease()
             InitializeComponent();
         }
-        Class1 SP;
         private void Arrow_Click(object sender, RoutedEventArgs e)
         {
             if (Menu.Visibility == Visibility.Collapsed)
@@ -39,6 +37,31 @@ namespace School
                 Menu.Visibility = Visibility.Collapsed;
                 (sender as Button).Content = "v";
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new Frames.GetMarks());
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new Frames.MinAVG());
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new Frames.GetCountTruancy());
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new Frames.GetCountDisease());
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(new Frames.GetStudNumber());
         }
     }
 }

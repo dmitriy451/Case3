@@ -1,14 +1,44 @@
-﻿<Page x:Class="School.Frames.GetCountDisease"
+﻿<Page
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:School.Frames"
+      xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="School.Frames.GetCountDisease"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="GetCountDisease">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="94*"/>
+        </Grid.RowDefinitions>
+        <Button FontSize="20" Margin="20" Click="Button_Click_1">Рассчитать количество пропусков по болезни</Button>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <ComboBox x:Name="CBox_Estimation" Width="200" Margin="10" FontSize="20">
+                <System:String>2</System:String>
+                <System:String>3</System:String>
+                <System:String>4</System:String>
+                <System:String>5</System:String>
+                <System:String>Прогул</System:String>
+                <System:String>Болезнь</System:String>
+            </ComboBox>
+            <DatePicker FontSize="20" VerticalAlignment="Center" x:Name="Date"/>
+            <Button FontSize="20" VerticalAlignment="Center" Margin="10" Click="Button_Click" Content="Добавить"/>
+        </StackPanel>
+        <ListView Grid.Row="2" x:Name="LView_Marks">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="Оценка: " FontSize="20" Margin="10"/>
+                        <Label Content="{Binding Estimation}" FontSize="20" Margin="10"/>
+                        <Label Content="Дата: " FontSize="20" Margin="10"/>
+                        <Label Content="{Binding DateString}" FontSize="20" Margin="10"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </Page>

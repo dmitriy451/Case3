@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Евгений\source\repos\Case3\School\School\App.xaml
-1219584333
+61993795558
 
-51579654133
+10-1943971440
 14-746794139
-MainWindow.xaml;
+Frames\GetCountDisease.xaml;Frames\GetCountTruancy.xaml;Frames\GetMarks.xaml;Frames\GetStudNumber.xaml;Frames\MinAVG.xaml;MainWindow.xaml;
 
 False
 

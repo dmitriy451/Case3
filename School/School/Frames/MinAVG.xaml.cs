@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Library;
 
 namespace School.Frames
 {
@@ -23,6 +24,12 @@ namespace School.Frames
         public MinAVG()
         {
             InitializeComponent();
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Class1 SP = new Class1();
+            MessageBox.Show(SP.MinAVG(TBox_Marks.Text.Split(new char[2] { ',', ' ' })).ToString());
+
         }
     }
 }

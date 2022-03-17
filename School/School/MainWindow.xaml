@@ -16,15 +16,15 @@
         </Grid.ColumnDefinitions>
         <StackPanel>
         <StackPanel Orientation="Vertical" Name="Menu">
-            <Button Margin="3" FontSize="20" >Выставить оценки на 10 дней</Button>
-            <Button Margin="3" FontSize="20" >Вычислить среднее арефметическое</Button>
-            <Button Margin="3" FontSize="20" >Посчитать количество прогулов</Button>
-            <Button Margin="3" FontSize="20" >Посчитать количество пропусков по болезни</Button>
-            <Button Margin="3" FontSize="20" >Генерация номера студентческого билета</Button>
+            <Button Margin="3" FontSize="20" Click="Button_Click" >Выставить оценки на 10 дней</Button>
+            <Button Margin="3" FontSize="20" Click="Button_Click_1" >Вычислить среднее арефметическое</Button>
+            <Button Margin="3" FontSize="20" Click="Button_Click_2" >Посчитать количество прогулов</Button>
+            <Button Margin="3" FontSize="20" Click="Button_Click_3" >Посчитать количество пропусков по болезни</Button>
+            <Button Margin="3" FontSize="20" Click="Button_Click_4" >Генерация номера студентческого билета</Button>
         </StackPanel>
             <Button HorizontalAlignment="Center" Margin="5" Name="Arrow" Click="Arrow_Click" FontSize="30" Padding="10 0 10 0">^</Button>
         </StackPanel>
-        <Frame Grid.Row="1">
+        <Frame Grid.Row="1" Name="frame">
             
         </Frame>
     </Grid>

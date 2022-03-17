@@ -9,6 +9,10 @@
       Title="GetStudNumber">
 
     <Grid>
-        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <ComboBox FontSize="20" Name="CBox_Students" DisplayMemberPath="Fio" Margin="10"></ComboBox>
+            <Button FontSize="20" Margin="10" Click="Button_Click">Сгенерировать студентческий билет</Button>
+        </StackPanel>
     </Grid>
 </Page>

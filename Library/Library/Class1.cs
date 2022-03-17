@@ -24,14 +24,14 @@ namespace Library
 
                 }
             }
-            return Math.Round(sum / count, 0);
+            return Math.Round(sum / count, 2);
         }
         public int GetCountTruancy(List<Mark> marks)
         {
             int count = 0;
             foreach (var item in marks)
             {
-                if (item.Estimation == "прогул")
+                if (item.Estimation == "Прогул")
                 {
                     count++;
                 }
@@ -43,14 +43,14 @@ namespace Library
             int count = 0;
             foreach (var item in marks)
             {
-                if (item.Estimation == "болезнь")
+                if (item.Estimation == "Болезнь")
                 {
                     count++;
                 }
             }
             return count;
         }
-        public string GetStudNumber(int year, int group, string fio)
+        public string GetStudNumber(string year, string group, string fio)
         {
             string initial = "";
             try
@@ -64,10 +64,11 @@ namespace Library
         }
         public List<Mark> GetMarks(DateTime now, List<Students> students)
         {
+            Random random = new Random();
             List<Mark> marks = new List<Mark>();
             for (int i = 0; i < 10; i++)
             {
-                marks.Add(new Mark(now, (new Random()).Next(1, 6).ToString()));
+                marks.Add(new Mark(now, (random.Next(2, 6).ToString())));
                 now = now.AddDays(1);
             }
             return marks;

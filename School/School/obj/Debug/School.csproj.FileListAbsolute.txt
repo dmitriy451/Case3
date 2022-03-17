@@ -17,3 +17,13 @@ C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\School.pdb
 C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\School_MarkupCompile.lref
 C:\Users\Евгений\source\repos\Case3\School\School\bin\Debug\Library.dll
 C:\Users\Евгений\source\repos\Case3\School\School\bin\Debug\Library.pdb
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetCountDisease.g.cs
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetCountTruancy.g.cs
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetMarks.g.cs
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetStudNumber.g.cs
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\MinAVG.g.cs
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetCountDisease.baml
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetCountTruancy.baml
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetMarks.baml
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\GetStudNumber.baml
+C:\Users\Евгений\source\repos\Case3\School\School\obj\Debug\Frames\MinAVG.baml
